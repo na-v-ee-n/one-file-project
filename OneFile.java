@@ -17,6 +17,7 @@ public class OneFile {
         System.out.println("The sum of the 10 numbers is: " + sum);
     }
 
+    // this is a comment to main method added by Agent
     public static void main(String[] args) {
         OneFile example = new OneFile();
         example.calculateAndPrintSum();
