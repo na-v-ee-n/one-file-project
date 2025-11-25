@@ -9,11 +9,11 @@ public class OneFile {
     int num7 = 70;
     int num8 = 80;
     int num9 = 90;
-    int num10 = 100;
+    int num11 = 100;
 
     // Method to add these 10 variables and print the result
     public void calculateAndPrintSum() {
-        int sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
+        int sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num11;
         System.out.println("The sum of the 10 numbers is: " + sum);
     }
 
