@@ -27,6 +27,18 @@ public class OneFile {
     public void calculateAndPrintSubtraction() {
         int result = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9 - num11;
         System.out.println("The result of subtracting the 10 numbers is: " + result);
+    // Method to subtract 1 from all variables
+    public void subtractOneFromAll() {
+        num1 -= 1;
+        num2 -= 1;
+        num3 -= 1;
+        num4 -= 1;
+        num5 -= 1;
+        num6 -= 1;
+        num7 -= 1;
+        num8 -= 1;
+        num9 -= 1;
+        num11 -= 1;
     }
 
     // this is a comment to main method added by Agent
