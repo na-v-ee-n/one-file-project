@@ -23,6 +23,10 @@ public class OneFile {
         System.out.println("The product of the 10 numbers is: " + product);
     }
 
+    // Method to subtract all the variables and print the result
+    public void calculateAndPrintSubtraction() {
+        int result = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9 - num11;
+        System.out.println("The result of subtracting the 10 numbers is: " + result);
     // Method to subtract 1 from all variables
     public void subtractOneFromAll() {
         num1 -= 1;
@@ -42,5 +46,6 @@ public class OneFile {
         OneFile example = new OneFile();
         example.calculateAndPrintSum();
         example.calculateAndPrintProduct();
+        example.calculateAndPrintSubtraction();
     }
 }
