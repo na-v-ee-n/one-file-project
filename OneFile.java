@@ -23,6 +23,20 @@ public class OneFile {
         System.out.println("The product of the 10 numbers is: " + product);
     }
 
+    // Method to subtract 1 from all variables
+    public void subtractOneFromAll() {
+        num1 -= 1;
+        num2 -= 1;
+        num3 -= 1;
+        num4 -= 1;
+        num5 -= 1;
+        num6 -= 1;
+        num7 -= 1;
+        num8 -= 1;
+        num9 -= 1;
+        num11 -= 1;
+    }
+
     // this is a comment to main method added by Agent
     public static void main(String[] args) {
         OneFile example = new OneFile();
